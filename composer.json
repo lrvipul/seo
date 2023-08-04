@@ -2,7 +2,6 @@
   "name": "tdd/seo",
   "description": "Seo NoIndex N foFollow extension for Magento 2",
   "type": "magento2-module",
-  "version": "v1.0.0",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
