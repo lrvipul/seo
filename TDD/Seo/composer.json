@@ -1,0 +1,27 @@
+{
+  "name": "tdd/seo",
+  "description": "Seo NoIndex N foFollow extension for Magento 2",
+  "type": "magento2-module",
+  "version": "v1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.2.0||~7.4.3||~8.1.*||~8.2.*"
+  },
+  "repositories":[
+    {
+        "type":"composer",
+        "url":"https://github.com/lrvipul/seo"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "TDD\\Seo\\": ""
+    }
+  }
+}
